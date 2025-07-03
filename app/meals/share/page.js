@@ -23,7 +23,7 @@ export default function ShareMealPage() {
       let imageUrl = '';
       
       if (imageFile) {
-        const signatureRes = await fetch('/api/sign-cloudinary', { method: 'POST' });
+        const signatureRes = await fetch(`${process.env.BASE_URL}/api/sign-cloudinary`, { method: 'POST' });
         const { signature, timestamp, apiKey, cloudName, folder } = await signatureRes.json();
       
         const formData = new FormData();
@@ -47,7 +47,7 @@ export default function ShareMealPage() {
         imageUrl = cloudData.secure_url;
       }
       
-      const result = await fetch('http://localhost:3000/api/sharedMeal', {
+      const result = await fetch(`${process.env.BASE_URL}/api/sharedMeal`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ name, title, email, summary, instructions, image: imageUrl }),
