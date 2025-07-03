@@ -164,7 +164,7 @@ export default function Home() {
             lineHeight: '1.8',
           }}
         >
-          We believe food is not just nourishment—it&apos;s emotion. Whether you're craving creamy mac & cheese, spicy curry, or classic schnitzel, Food Talashi brings the world of tastes to your screen. Join a vibrant foodie community where everyone shares love, culture, and mouthwatering dishes.
+          We believe food is not just nourishment—it&apos;s emotion. Whether you&apos;re craving creamy mac & cheese, spicy curry, or classic schnitzel, Food Talashi brings the world of tastes to your screen. Join a vibrant foodie community where everyone shares love, culture, and mouthwatering dishes.
         </p>
       </section>
 
