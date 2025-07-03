@@ -23,7 +23,7 @@ export default function ShareMealPage() {
       let imageUrl = '';
       
       if (imageFile) {
-        const signatureRes = await fetch(`${process.env.BASE_URL}/api/sign-cloudinary`, { method: 'POST' });
+        const signatureRes = await fetch('/api/sign-cloudinary', { method: 'POST' });
         const { signature, timestamp, apiKey, cloudName, folder } = await signatureRes.json();
       
         const formData = new FormData();
