@@ -1,0 +1,358 @@
+/* page.module.css */
+
+.header {
+  text-align: center;
+  padding: 4rem 1rem 2rem;
+  background: linear-gradient(135deg, #4a1d0f 0%, #ff6600 100%);
+  color: #fefefe;
+  clip-path: ellipse(150% 100% at 50% 0%);
+  position: relative;
+  overflow: hidden;
+}
+
+.header::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(circle at 70% 20%, rgba(255,255,255,0.1) 0%, transparent 70%);
+}
+
+.header h1 {
+  font-size: clamp(2rem, 5vw, 2.8rem);
+  margin-bottom: 1rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  position: relative;
+  z-index: 1;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.2);
+}
+
+.header p {
+  font-size: clamp(1rem, 3vw, 1.2rem);
+  max-width: 600px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+  opacity: 0.9;
+}
+
+.highlight {
+  background: linear-gradient(90deg, #f99f2a, #ff6600);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  position: relative;
+  display: inline-block;
+}
+
+.highlight::after {
+  content: '';
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background: linear-gradient(90deg, #f99f2a, #ff6600);
+  border-radius: 3px;
+  transform: scaleX(0.9);
+  opacity: 0.7;
+}
+
+.main {
+  width: 90%;
+  max-width: 1200px;
+  margin: 2rem auto;
+  color: white;
+  padding: 0 1rem;
+}
+
+.form {
+  background-color: rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  padding: 2rem;
+  border-radius: 16px;
+  box-shadow: 0 10px 50px rgba(255, 102, 0, 0.2);
+  animation: fadeIn 0.8s ease-in;
+  border: 1px solid rgba(255,255,255,0.1);
+}
+
+.gridContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+
+.formFields {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.imageSection {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.uploadContainer {
+  border: 2px dashed rgba(255, 255, 255, 0.2);
+  border-radius: 16px;
+  padding: 2rem;
+  text-align: center;
+  background-color: rgba(18, 18, 18, 0.5);
+  transition: all 0.3s ease;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.uploadLabel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+}
+
+.uploadContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.uploadIcon {
+  width: 48px;
+  height: 48px;
+  fill: #ff6600;
+  opacity: 0.7;
+  margin-bottom: 1rem;
+}
+
+.uploadText {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #e8e3da;
+  margin: 0;
+}
+
+.uploadHint {
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.5);
+  margin: 0;
+}
+
+.fileInput {
+  display: none;
+}
+
+.previewContainer {
+  border-radius: 16px;
+  overflow: hidden;
+  background-color: rgba(18, 18, 18, 0.5);
+  height: 100%;
+}
+
+.previewContent {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.previewImage {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 12px 12px 0 0;
+}
+
+.previewInfo {
+  padding: 1rem;
+  background-color: rgba(24, 24, 24, 0.8);
+  border-radius: 0 0 12px 12px;
+}
+
+.filename {
+  font-size: 0.9rem;
+  color: #e8e3da;
+  margin: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.fileSize {
+  font-size: 0.8rem;
+  color: rgba(255, 255, 255, 0.5);
+  margin: 0.25rem 0 0;
+}
+
+.form label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+  font-family: 'Poppins', sans-serif;
+  text-transform: uppercase;
+  color: #e8e3da;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.form input,
+.form textarea {
+  display: block;
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border-radius: 12px;
+  border: 1px solid rgba(255,255,255,0.1);
+  background: rgba(18, 18, 18, 0.8);
+  font-size: 1rem;
+  color: #e4e4e4;
+  transition: all 0.3s ease;
+  font-family: 'Poppins', sans-serif;
+}
+
+.form input:focus,
+.form textarea:focus {
+  outline: none;
+  border-color: #ff6600;
+  background: rgba(24, 24, 24, 0.9);
+  box-shadow: 0 0 0 3px rgba(255, 102, 0, 0.2);
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.row p {
+  flex: 1;
+  min-width: 200px;
+}
+
+.actions {
+  text-align: center;
+  margin-top: 2rem;
+  grid-column: 1 / -1;
+}
+
+.actions button {
+  border: none;
+  padding: 1rem 2.4rem;
+  font-size: 1.1rem;
+  border-radius: 12px;
+  background: linear-gradient(90deg, #ff7a00, #ff3e00);
+  color: #fff;
+  cursor: pointer;
+  font-weight: 600;
+  box-shadow: 0 6px 20px rgba(255, 102, 0, 0.4);
+  transition: all 0.3s ease;
+  font-family: 'Poppins', sans-serif;
+  position: relative;
+  overflow: hidden;
+}
+
+.actions button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+  transition: 0.5s;
+}
+
+.actions button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 30px rgba(255, 102, 0, 0.6);
+}
+
+.actions button:hover::before {
+  left: 100%;
+}
+
+.actions button:active {
+  transform: translateY(0);
+}
+
+/* Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+  .gridContainer {
+    grid-template-columns: 1fr;
+  }
+  
+  .imageSection {
+    order: -1;
+  }
+  
+  .uploadContainer {
+    height: 200px;
+  }
+  
+  .previewImage {
+    height: 250px;
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    padding-top: 3rem;
+    padding-bottom: 1.5rem;
+    clip-path: ellipse(200% 100% at 50% 0%);
+  }
+  
+  .form {
+    padding: 1.5rem;
+    border-radius: 12px;
+  }
+  
+  .row p {
+    min-width: 100%;
+  }
+  
+  .actions button {
+    width: 100%;
+    padding: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .header {
+    clip-path: ellipse(250% 100% at 50% 0%);
+  }
+  
+  .form {
+    padding: 1rem;
+  }
+  
+  .form input,
+  .form textarea {
+    padding: 0.65rem 0.9rem;
+    font-size: 0.95rem;
+  }
+  
+  .uploadContainer {
+    padding: 1.5rem;
+  }
+}

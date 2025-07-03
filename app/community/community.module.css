@@ -1,0 +1,143 @@
+.main {
+    background: linear-gradient(to bottom, #0a0a0a 0%, #111111 100%);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    padding: 2rem;
+    position: relative;
+    overflow-x: hidden;
+  }
+  
+  
+  .hero {
+    text-align: center;
+    padding-top: 7rem; 
+    padding-bottom: 2rem;
+    position: relative;
+    z-index: 2;
+    animation: fadeIn 1s ease;
+  }
+  
+  .title {
+    font-size: 3rem;
+    color: #ff6600;
+    margin-bottom: 1rem;
+  }
+  
+  .subtitle {
+    font-size: 1.2rem;
+    color: #cccccc;
+    max-width: 700px;
+    margin: 0 auto;
+  }
+  
+  .quoteSection {
+    text-align: center;
+    margin: 3rem 0;
+    font-style: italic;
+    font-size: 1.3rem;
+    color: #ff884d;
+    animation: fadeInQuote 2s ease;
+  }
+  
+  .gallerySection {
+    margin-top:1rem 0 3rem;
+  }
+  
+  .galleryTitle {
+    font-size: 2rem;
+    color: #ff6600;
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+    animation: fadeIn 1.5s ease;
+  }
+  
+  .imageCard {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 12px;
+    overflow: hidden;
+  }
+  
+  .imageCard:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(255, 102, 0, 0.4);
+  }
+  
+  .image {
+    border-radius: 12px;
+    object-fit: cover;
+  }
+  
+  .blogSection {
+    background-color: #111;
+    padding: 3rem 2rem;
+    margin-top: 5rem;
+    text-align: center;
+    animation: slideUp 2s ease;
+  }
+  
+  .blogHeading {
+    font-size: 1.8rem;
+    color: #ffaa66;
+    margin-bottom: 1rem;
+  }
+  
+  .blogText {
+    max-width: 700px;
+    margin: 0 auto;
+    color: #dddddd;
+    line-height: 1.7;
+    font-size: 1.1rem;
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(40px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes slideUp {
+    from {
+      opacity: 0;
+      transform: translateY(60px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  @keyframes fadeInQuote {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+  .imageCard {
+    transition: all 0.4s ease-in-out;
+  }
+  
+  .hero::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(to bottom, #0a0a0a, transparent);
+    z-index: 0;
+  }
+  

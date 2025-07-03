@@ -1,0 +1,269 @@
+.main {
+    padding: 60px 20px;
+    background-color: #0e0e0e;
+    color: white;
+    min-height: 100vh;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  .hero {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  
+  .hero h1 {
+    font-size: 2.8rem;
+    color: #ff6b00;
+    margin-bottom: 12px;
+    text-shadow: 0 0 10px #ff6b00;
+  }
+  
+  .hero p {
+    color: #cccccc;
+    max-width: 600px;
+    margin: auto;
+    font-size: 1rem;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 30px;
+    padding: 0 10px;
+  }
+  
+  .card {
+    background: linear-gradient(145deg, #1a1a1a, #111);
+    border: 1px solid rgba(255, 107, 0, 0.2);
+    border-radius: 14px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 0 12px rgba(255, 107, 0, 0.25);
+  }
+  
+  .card:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 25px rgba(255, 107, 0, 0.6);
+  }
+  
+  .imageWrapper img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    display: block;
+  }
+  
+  .cardContent {
+    padding: 16px;
+  }
+  
+  .cardContent h2 {
+    font-size: 1.2rem;
+    margin: 0 0 6px;
+    color: #fff;
+    text-shadow: 0 0 4px #ff6b00;
+  }
+  
+  .summary {
+    color: #bbb;
+    font-size: 0.9rem;
+    line-height: 1.4;
+    margin-bottom: 10px;
+  }
+  
+  .author {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 0.85rem;
+    color: #ccc;
+    margin-bottom: 10px;
+  }
+  
+  .badge {
+    width: 30px;
+    height: 30px;
+    background: #ff6b00;
+    color: white;
+    font-weight: bold;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 1rem;
+    text-shadow: 0 0 5px #ff6b00;
+  }
+  
+  .instructions summary {
+    cursor: pointer;
+    color: #ffa94d;
+    font-weight: 500;
+    outline: none;
+  }
+  
+  .instructions p {
+    margin-top: 10px;
+    color: #ccc;
+    font-size: 0.85rem;
+    white-space: pre-line;
+  }
+  
+  /* Mobile responsiveness */
+@media screen and (max-width: 768px) {
+    .mealpage_main__IzrTf {
+      padding: 1rem;
+    }
+  
+    .mealcards {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 1.5rem;
+    }
+  
+    .mealcard {
+      width: 100%;
+      max-width: 90vw;
+    }
+  
+    .mealtitle {
+      font-size: 1.2rem;
+      text-align: center;
+    }
+  
+    .mealsub {
+      font-size: 0.9rem;
+      text-align: center;
+      padding: 0 0.5rem;
+    }
+  
+    .mealpage_hero__pB1AI h1 {
+      font-size: 1.8rem;
+      text-align: center;
+      line-height: 2.2rem;
+    }
+  
+    .mealpage_hero__pB1AI p {
+      font-size: 0.95rem;
+      text-align: center;
+      margin: 0.5rem auto;
+    }
+  
+    .recipe-author {
+      flex-direction: column;
+      align-items: center;
+      gap: 0.3rem;
+    }
+  
+    .author-initial {
+      font-size: 0.8rem;
+      width: 25px;
+      height: 25px;
+    }
+  }
+  .mealpage_hero__pB1AI {
+    margin-top: 2rem;
+    padding: 1.5rem 1rem;
+    text-align: center;
+  }
+  
+  .mealpage_hero__pB1AI h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #ff6b00;
+    text-shadow: 0 0 6px #ff6b00, 0 0 14px #ff6b00;
+    margin: 0.5rem 0 1rem;
+    line-height: 2.4rem;
+  }
+  
+  .mealpage_hero__pB1AI p {
+    font-size: 1rem;
+    color: #ccc;
+    max-width: 500px;
+    margin: 0 auto;
+    line-height: 1.4rem;
+  }
+  @keyframes glowFade {
+    0% {
+      text-shadow: 0 0 6px #ff6b00, 0 0 12px #ff6b00;
+    }
+    50% {
+      text-shadow: 0 0 12px #ff6b00, 0 0 24px #ff6b00;
+    }
+    100% {
+      text-shadow: 0 0 6px #ff6b00, 0 0 12px #ff6b00;
+    }
+  }
+  
+  .mealpage_hero__pB1AI h1 {
+    animation: glowFade 2.5s ease-in-out infinite;
+  }
+      
+  .buttonWrapper {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+  }
+  
+  .communityBtn {
+    background: linear-gradient(135deg, #ff6b6b, #f0a6ca);
+    color: white;
+    font-size: 1.1rem;
+    padding: 0.75rem 1.8rem;
+    border: none;
+    border-radius: 999px;
+    cursor: pointer;
+    box-shadow: 0 6px 12px rgba(255, 107, 107, 0.3);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .communityBtn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px rgba(240, 166, 202, 0.4);
+  }
+  @media screen and (max-width: 768px) {
+    .main {
+      padding-top: 120px; /* or 70px depending on your navbar height */
+    }
+  }
+  .buttonWrapper {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin: 2rem 0;
+  }
+  
+  .communityBtn,
+  .shareBtn {
+    font-size: 1.05rem;
+    padding: 0.75rem 1.8rem;
+    border: none;
+    border-radius: 999px;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .communityBtn {
+    background: linear-gradient(135deg, #ff6b6b, #f0a6ca);
+    color: white;
+    box-shadow: 0 6px 12px rgba(255, 107, 107, 0.3);
+  }
+  
+  .communityBtn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px rgba(240, 166, 202, 0.4);
+  }
+  
+  .shareBtn {
+    background: linear-gradient(135deg, #6bffb1, #8ed1fc);
+    color: black;
+    font-weight: 500;
+    box-shadow: 0 6px 12px rgba(110, 255, 188, 0.3);
+  }
+  
+  .shareBtn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px rgba(142, 209, 252, 0.4);
+  }
+  

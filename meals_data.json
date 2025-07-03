@@ -1,0 +1,220 @@
+[
+  {
+    "id": "180313d8-beba-4a87-abbb-b890d8abad36",
+    "title": "Spaghetti Carbonara",
+    "author": "Liam Smith",
+    "email": "user1@example.com",
+    "summary": "Delicious and flavorful dish.",
+    "instructions": "1. Prepare all ingredients\n2. Cook according to recipe steps\n3. Serve hot and enjoy!",
+    "image": "https://www.allrecipes.com/thmb/Vg2cRidr2zcYhWGvPD8M18xM_WY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/11973-spaghetti-carbonara-ii-DDMFS-4x3-6edea51e421e4457ac0c3269f3be5157.jpg"
+  },
+  {
+    "id": "6096797c-d49b-4b92-b264-e50cc9effe2a",
+    "title": "Veg Biryani",
+    "author": "Emily Chen",
+    "email": "user2@example.com",
+    "summary": "Rich in taste and tradition.",
+    "instructions": "1. Mix base ingredients\n2. Bake until golden\n3. Garnish and serve",
+    "image": "https://static.wixstatic.com/media/91e241_0cf76aa5613b4055be2f922f71edeaa0~mv2.jpg/v1/fill/w_560,h_372,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Ustaadi%20Hyderabadi%20Veg%20Biryani.jpg"
+  },
+  {
+    "id": "c4035aec-0e0a-405d-8b98-416453135337",
+    "title": "Cheeseburger",
+    "author": "Emily Chen",
+    "email": "user3@example.com",
+    "summary": "Quick and easy to make.",
+    "instructions": "1. Prepare all ingredients\n2. Cook according to recipe steps\n3. Serve hot and enjoy!",
+    "image": "https://assets.epicurious.com/photos/5c745a108918ee7ab68daf79/1:1/w_2560%2Cc_limit/Smashburger-recipe-120219.jpg"
+  },
+  {
+    "id": "8e0259d9-ce24-45eb-8a23-72e0568a5f1f",
+    "title": "Mac and Cheese",
+    "author": "Emily Chen",
+    "email": "user4@example.com",
+    "summary": "Rich in taste and tradition.",
+    "instructions": "1. Mix base ingredients\n2. Bake until golden\n3. Garnish and serve",
+    "image": "https://www.allrecipes.com/thmb/MkbGgNcGadAWdYw0aRZbo8WapHM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/237311-slow-cooker-mac-and-cheese-DDMFS-4x3-9b4a15f2c3344c1da22b034bc3b35683.jpg"
+  },
+  {
+    "id": "5c493487-f0a7-4300-ab9c-affcc82c225e",
+    "title": "Ramen",
+    "author": "Robert Brown",
+    "email": "user5@example.com",
+    "summary": "A comforting classic.",
+    "instructions": "1. Mix base ingredients\n2. Bake until golden\n3. Garnish and serve",
+    "image": "https://images.themodernproper.com/production/posts/2017/SlowCookerCurryBeefRamen_12.jpg?w=1200&h=1200&q=60&fm=jpg&fit=crop&dm=1676687732&s=8aecbd0294436dd32a9fc48b92903ecc"
+  },
+  {
+    "id": "cd08ba4b-6383-43c9-b2e4-5fdd63173c4d",
+    "title": "Butter Chicken",
+    "author": "Daniel Kim",
+    "email": "user6@example.com",
+    "summary": "A fusion of spices and aroma.",
+    "instructions": "1. Prepare all ingredients\n2. Cook according to recipe steps\n3. Serve hot and enjoy!",
+    "image": "https://img-cdn.publive.online/fit-in/1200x675/filters:format(webp)/sanjeev-kapoor/media/media_files/3RSNlFbnXo6eut96CcZz.jpg"
+  },
+  {
+    "id": "4fbbcd01-ad67-41cc-b103-8b3bd66b167d",
+    "title": "Chole Bhature",
+    "author": "Emily Chen",
+    "email": "user7@example.com",
+    "summary": "A fusion of spices and aroma.",
+    "instructions": "1. Mix base ingredients\n2. Bake until golden\n3. Garnish and serve",
+    "image": "https://amritsr.com/wp-content/uploads/2021/04/cholle-bhature.jpeg"
+  },
+  {
+    "id": "2374777a-f911-4b2d-a617-716c73146e2c",
+    "title": "Fish Tacos",
+    "author": "Liam Smith",
+    "email": "user8@example.com",
+    "summary": "Rich in taste and tradition.",
+    "instructions": "1. Prepare all ingredients\n2. Cook according to recipe steps\n3. Serve hot and enjoy!",
+    "image": "https://tonisrecipes.com/wp-content/uploads/2024/06/Baja-Fish-Tacos-Recipe.jpg"
+  },
+  {
+    "id": "91d6a48b-06ec-40ee-b69d-140c0c9952ae",
+    "title": "Falafel Wrap",
+    "author": "Anita Desai",
+    "email": "user9@example.com",
+    "summary": "Delicious and flavorful dish.",
+    "instructions": "1. Chop vegetables\n2. Saut\u00e9 with spices\n3. Simmer and serve",
+    "image": "https://heartfultable.com/wp-content/uploads/2019/08/Vegan-Falafel-Wrap-1.jpg"
+  },
+  {
+    "id": "ef4245e9-b8ab-42a4-a970-d468c5550d1b",
+    "title": "Sushi Rolls",
+    "author": "Liam Smith",
+    "email": "user10@example.com",
+    "summary": "Rich in taste and tradition.",
+    "instructions": "1. Prepare all ingredients\n2. Cook according to recipe steps\n3. Serve hot and enjoy!",
+    "image": "https://www.heinens.com/content/uploads/2023/06/Tuna-Sushi-Rolls-800x550-1.jpg"
+  },
+  {
+    "id": "c192d565-8b9f-491c-8de9-ac2a9badc4fa",
+    "title": "Margherita Pizza",
+    "author": "Maria Gomez",
+    "email": "user11@example.com",
+    "summary": "Quick and easy to make.",
+    "instructions": "1. Prepare all ingredients\n2. Cook according to recipe steps\n3. Serve hot and enjoy!",
+    "image": "https://allforpizza.com/wp-content/uploads/2022/07/1460A7EC-CF3B-40E8-B05F-A21E12E85EC6.jpeg"
+  },
+  {
+    "id": "804f94a9-bab3-402a-b36a-d77f6ad0ed4b",
+    "title": "Pav Bhaji",
+    "author": "Robert Brown",
+    "email": "user12@example.com",
+    "summary": "A comforting classic.",
+    "instructions": "1. Prepare all ingredients\n2. Cook according to recipe steps\n3. Serve hot and enjoy!",
+    "image": "https://www.cookwithmanali.com/wp-content/uploads/2018/05/Best-Pav-Bhaji-Recipe.jpg"
+  },
+  {
+    "id": "7bdf8dca-2928-4113-8743-f80ac9e68e3c",
+    "title": "Tandoori Chicken",
+    "author": "Maria Gomez",
+    "email": "user13@example.com",
+    "summary": "Rich in taste and tradition.",
+    "instructions": "1. Prepare all ingredients\n2. Cook according to recipe steps\n3. Serve hot and enjoy!",
+    "image": "https://sinfullyspicy.com/wp-content/uploads/2014/07/1200-by-1200-images-2.jpg"
+  },
+  {
+    "id": "5c70f95d-22d4-4be6-bc13-0bbe7f3e0b3e",
+    "title": "Miso Soup",
+    "author": "Maria Gomez",
+    "email": "user14@example.com",
+    "summary": "Delicious and flavorful dish.",
+    "instructions": "1. Chop vegetables\n2. Saut\u00e9 with spices\n3. Simmer and serve",
+    "image": "https://www.yummytummyaarthi.com/wp-content/uploads/2021/03/miso-soup-1-500x375.jpg"
+  },
+  {
+    "id": "27def2ec-5c1d-4f8c-bf32-f6fb66f5835e",
+    "title": "Paneer Tikka",
+    "author": "Maria Gomez",
+    "email": "user15@example.com",
+    "summary": "Rich in taste and tradition.",
+    "instructions": "1. Mix base ingredients\n2. Bake until golden\n3. Garnish and serve",
+    "image": "https://www.cookwithmanali.com/wp-content/uploads/2015/07/Restaurant-Style-Recipe-Paneer-Tikka-500x500.jpg"
+  },
+
+  {
+    "id": "8738db5d-5794-4f1f-9372-50662187cb18",
+    "title": "Greek Salad",
+    "author": "Emily Chen",
+    "email": "user17@example.com",
+    "summary": "Perfect for dinner with family.",
+    "instructions": "1. Prepare all ingredients\n2. Cook according to recipe steps\n3. Serve hot and enjoy!",
+    "image": "https://www.simplyrecipes.com/thmb/0NrKQlJ691l6L9tZXpL06uOuWis=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/Simply-Recipes-Easy-Greek-Salad-LEAD-2-4601eff771fd4de38f9722e8cafc897a.jpg"
+  },
+  {
+    "id": "f9d4c47f-679e-4098-897b-ad7d19778053",
+    "title": "Vegetable Stir Fry",
+    "author": "Leila Hassan",
+    "email": "user20@example.com",
+    "summary": "Perfect for dinner with family.",
+    "instructions": "1. Mix base ingredients\n2. Bake until golden\n3. Garnish and serve",
+    "image": "https://s.lightorangebean.com/media/20240914144639/Thai-Vegetable-Stir-Fry-with-Lime-and-Ginger_done.png"
+  },
+  {
+    "id": "1f64ca7e-18da-4e4a-90ac-ec0bd3633b37",
+    "title": "Mutton Curry",
+    "author": "Anita Desai",
+    "email": "user21@example.com",
+    "summary": "Perfect for dinner with family.",
+    "instructions": "1. Chop vegetables\n2. Saut\u00e9 with spices\n3. Simmer and serve",
+    "image": "https://i.ytimg.com/vi/-KbBMYKbmGY/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLB0TULBGgVs8xYmD9wfepdNdtwSRg"
+  },
+  {
+    "id": "eab2d4d7-456c-4fac-b5f7-59ea8b7d5443",
+    "title": "Egg Fried Rice",
+    "author": "Emily Chen",
+    "email": "user22@example.com",
+    "summary": "Rich in taste and tradition.",
+    "instructions": "1. Prepare all ingredients\n2. Cook according to recipe steps\n3. Serve hot and enjoy!",
+    "image": "https://www.sharmispassions.com/wp-content/uploads/2013/04/EggFriedRice4.jpg"
+  },
+  {
+    "id": "a0d23387-4f03-4549-b27f-f248ed6bbb31",
+    "title": "Pesto Pasta",
+    "author": "Emily Chen",
+    "email": "user23@example.com",
+    "summary": "Rich in taste and tradition.",
+    "instructions": "1. Mix base ingredients\n2. Bake until golden\n3. Garnish and serve",
+    "image": "https://littlenonni.com/wp-content/uploads/2024/08/ricotta-pesto-pasta-12-12-1-2.jpg"
+  },
+  {
+    "id": "e0b07790-9aec-46e8-8d58-19e696d7b7eb",
+    "title": "Grilled Cheese",
+    "author": "Sofia Lee",
+    "email": "user24@example.com",
+    "summary": "Rich in taste and tradition.",
+    "instructions": "1. Mix base ingredients\n2. Bake until golden\n3. Garnish and serve",
+    "image": "https://cdn.loveandlemons.com/wp-content/uploads/2023/01/grilled-cheese.jpg"
+  },
+  {
+    "id": "262d0851-4fa9-4521-8cdf-c8bb1a24d7ed",
+    "title": "Caesar Salad",
+    "author": "Ravi Kapoor",
+    "email": "user25@example.com",
+    "summary": "Rich in taste and tradition.",
+    "instructions": "1. Prepare all ingredients\n2. Cook according to recipe steps\n3. Serve hot and enjoy!",
+    "image": "https://www.feastingathome.com/wp-content/uploads/2021/10/Caesar-salad_-4.jpg"
+  },
+  {
+    "id": "bf773c30-befc-4874-8301-d2d9603b8b6f",
+    "title": "Tuna Sandwich",
+    "author": "Robert Brown",
+    "email": "user26@example.com",
+    "summary": "A fusion of spices and aroma.",
+    "instructions": "1. Chop vegetables\n2. Saut\u00e9 with spices\n3. Simmer and serve",
+    "image": "https://www.eatingwell.com/thmb/Zsd1GdTnO7Ca7PDa4mQ_DHzIi0I=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/spicy-garlicky-tuna-chickpea-sandwich-3x2-265-e7f45a0607254b299573e3e2e2896e03.jpg"
+  },
+  {
+    "id": "ebac2634-fc07-457a-9eee-9d18a696fdbf",
+    "title": "Korean Bibimbap",
+    "author": "Emily Chen",
+    "email": "user27@example.com",
+    "summary": "A fusion of spices and aroma.",
+    "instructions": "1. Mix base ingredients\n2. Bake until golden\n3. Garnish and serve",
+    "image": "https://www.recipetineats.com/tachyon/2019/05/Bibimbap_3.jpg"
+  }
+ 
+]
