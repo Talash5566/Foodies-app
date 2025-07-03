@@ -47,7 +47,7 @@ export default function ShareMealPage() {
         imageUrl = cloudData.secure_url;
       }
       
-      const result = await fetch(`${process.env.BASE_URL}/api/sharedMeal`, {
+      const result = await fetch('/api/sharedMeal', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ name, title, email, summary, instructions, image: imageUrl }),
